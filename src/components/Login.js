@@ -41,7 +41,8 @@ export default function Login() {
     };
 
   return (
-    <div className="container mt-5">
+    <div>
+      <div className="container mt-5">
       <div className="row justify-content-center ">
         <div className="col-md-6">
           <h1 className="text-center mb-4">Login</h1>
@@ -66,12 +67,18 @@ export default function Login() {
               />
             </Form.Group>
 
-            <Button variant="primary" type="submit" className="w-100 mt-3">
+            <Button variant="danger" type="submit" className="w-100 mt-3">
               Submit
             </Button>
           </Form>
         </div>
       </div>
+    </div>
+    <div className="mt-5 text-center">
+    <h6>To login in Snapdeal please fill the email and password as given below</h6>
+      <h4>Email: <span>abc@xyz.com</span></h4>
+      <h4>Password: <span>qwertyuiop</span></h4>
+    </div>
     </div>
   );
 }
