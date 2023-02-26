@@ -9,6 +9,10 @@ const initialState ={
         {
             email: 'xyz@abc.com',
             password:'poiuytrewq'
+        },
+        {
+            email: "user@gmail.com",
+            password: "user@123"
         }
     ]
 }
